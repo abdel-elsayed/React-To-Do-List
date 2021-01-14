@@ -5,15 +5,13 @@ import propTypes from 'prop-types';
 export class TodoItem extends Component {
     getStyle = () => {
         return {
-            background: '#f4f4f4',
             padding: '10px',
-            border: '1px dotted #ccc',
+            borderBottom: '3px solid gray',
+            borderRadius: '5%',
             textDecoration: this.props.todo.isCompleted 
             ? "line-through" : "none"
         }
     }
-
-  
     render() {
         //const {id,title } = this.probs.todo;
         return (
@@ -29,7 +27,6 @@ export class TodoItem extends Component {
         )
     }
 }
-
 //PropTypes
 TodoItem.propTypes = {
     todo: propTypes.object.isRequired
