@@ -20,7 +20,7 @@ state = {
     },
     {
       id : uuid(),
-      title : "Walk a mile",
+      title : "Walk an extra mile",
       isCompleted : false 
     }
   ]
