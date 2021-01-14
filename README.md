@@ -1,7 +1,9 @@
 # ReactJS TO-DO Web Application
+Using Axios to fetch todo items from https://jsonplaceholder.typicode.com/todos
+
 
 ## CodeSandbox.com link to view the app
-https://codesandbox.io/s/strange-diffie-4bw64?file=/src/components/CitySearch.js
+https://codesandbox.io/s/hardcore-ellis-nrt9l?file=/src/components/Todos.js
 
 
 ## Screenshot 
