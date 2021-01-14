@@ -8,10 +8,11 @@ function Header() {
     )
 }
 const headerStyle ={
-    background: '#FFFF66',
+    
+    marginTop: '3%',
     color: 'black',
     textAlign: 'center',
-    padding: '10px'
+    padding: '20px'
 }
 
 export default Header
